@@ -1,0 +1,86 @@
+<!-- header.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+</head>
+<body>
+    <h1>Welcome to MVSR</h1>
+</body>
+</html>
+
+<!-- branches.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Branches</title>
+</head>
+<body>
+    <table border="1" width="100%">
+        <tr>
+            <th>Branches</th>
+        </tr>
+        <tr><td><a href="cse.html" target="main">CSE</a></td></tr>
+        <tr><td><a href="it.html" target="main">IT</a></td></tr>
+        <tr><td><a href="aiml.html" target="main">AIML</a></td></tr>
+        <tr><td><a href="iot.html" target="main">IoT</a></td></tr>
+        <tr><td><a href="ds.html" target="main">DS</a></td></tr>
+        <tr><td><a href="civil.html" target="main">Civil</a></td></tr>
+        <tr><td><a href="mech.html" target="main">Mech</a></td></tr>
+        <tr><td><a href="ece.html" target="main">ECE</a></td></tr>
+        <tr><td><a href="eee.html" target="main">EEE</a></td></tr>
+    </table>
+</body>
+</html>
+
+<!-- main.html (Frameset) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVSR College</title>
+</head>
+<frameset rows="20%,*">
+    <frame src="header.html" name="header">
+    <frameset cols="30%,*">
+        <frame src="branches.html" name="sidebar">
+        <frame src="default.html" name="main">
+    </frameset>
+</frameset>
+</html>
+
+<!-- default.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+</head>
+<body>
+    <h2>Select a branch to see details</h2>
+</body>
+</html>
+
+<!-- Sample Branch Page Template -->
+
